@@ -10,6 +10,5 @@ export default function Button({ handler, children }) {
 }
 
 Button.propTypes = {
-  handler: PropTypes.func.isRequired,
   children: PropTypes.node.isRequired,
 };
